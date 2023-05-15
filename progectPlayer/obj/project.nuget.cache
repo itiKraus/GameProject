@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QOyUedJNXzXu/speYAuJ0e/3zp53Coe+aaSxUBl2PpQVwc7ndFuoDtmsK/VNJloUFnGR+qIuDHapR5RU2FcFzw==",
+  "success": true,
+  "projectFilePath": "D:\\איטי תכנות\\שנה א'\\javaScript\\progectPlayer\\progectPlayer\\progectPlayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}

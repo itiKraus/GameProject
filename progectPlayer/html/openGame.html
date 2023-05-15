@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="..\style\openGame.css" rel="stylesheet" />
+    
+</head>
+
+<body>
+
+
+    <div>
+        <h1 id="h11">ברוכים הבאים</h1>
+        <h1 id="h12">ברוכים הבאים</h1>
+    </div>
+
+    <div id="instruction">
+
+        <h2>הוראות משחק:</h2>
+        <ul>
+            <li> משך המשחק:כ--10 דקות </li>
+            <li>מטרת המשחק: לצבור את הכמות הגדולה ביותר של סטים</li>
+            <li>
+                סט הוא:סדרה המכילה חלק אחד מכל 5 הצבעים
+                לדוגמא:אם צברת 3 נקודות מכל צבע הרי ברשותך 3 סטים שלמים
+            </li>
+            <li>יש לפרוס את משטח המשחק ולהניח את החלקים העגולים ברבועים המסומנים</li>
+            <li>
+                כל שחקן נדרש ללחוץ על עגול משחק לבחירתו וללחוץ
+                על שמבצת ריקה בה הוא רוצה להניח את עגול המשחק
+            </li>
+            <li>חובה לבצע דלוג על משבצת אחת  שיש בה עגול משחק והיא אינה ריקה</li>
+            <li>
+                בעת בצוע מהלך נכון תיצבור נקודה נוספת מעגולי המשחק
+                בצבע המסיום אותו דלגת ע''י הלחיצה
+            </li>
+            <li>אם בצעת טעות תפסיד נקודה מצבע כל שהוא שצברת עד כה</li>
+            <li>סיום המשחק כאשר לא נותרו מהלכים לבצוע </li>
+            <li>השחקן המנצח הוא מי שצבר את כמות הסטים המרבית </li>
+
+
+        </ul>
+
+
+
+        <video controls="controls" poster="..\images\p5.gif" width="450" height="450" id="video">
+            <source src="..\images\MindWare%20Skippity_Trim.mp4" type="video/mp4" />
+        </video>
+
+
+
+
+
+    </div>
+
+    <audio controls="controls" loop="loop" id="muzic">
+        <source src="..\images\02_%d7%95%d7%a0%d7%a4%d7%a9%d7%99.mp3" type="audio/mpeg" />
+        מוזיקה נעימה לשמיעה
+    </audio>
+    <a href="userDitails.html" target="_blank">לכניסה למשחק</a>
+    <!--<div class="container">
+    <div class="mySlides" style="display:inherit">
+        <div class="numbertext">1 / 5</div>
+
+        <img src="..\images\p1.gif" style="width:75%" />
+
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">2 / 5</div>
+
+        <img src="..\images\p2.gif" style="width:100%" />
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">3 / 5</div>
+        <img src="..\images\p3.gif" style="width:100%" />
+
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">4 / 5</div>
+        <img src="..\images\p4.gif" style="width:100%" />
+
+
+    </div>-->
+    <!--<div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+
+        <img src="..\images\p5.gif" style="width:100%"/>
+
+    </div>-->
+    <!--<div class="mySlides">
+        <div class="numbertext">5 / 5</div>
+        <img src="..\images\p6.gif" style="width:100%; " />
+
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <div class="caption-container">
+        <p id="caption"></p>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img class="demo cursor" src="..\images\p1.gif" style="width:100%" onclick="currentSlide(1)">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="..\images\p2.gif" style="width:100%" onclick="currentSlide(2)">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="..\images\p3.gif" style="width:100%" onclick="currentSlide(3)">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="..\images\p4.gif" style="width:100%" onclick="currentSlide(4)">
+        </div>-->
+    <!--<div class="column">
+        <img class="demo cursor" src="..\images\p5.gif" style="width:100%" onclick="currentSlide(5)">
+    </div>-->
+    <!--<div class="column">
+                    <img class="demo cursor" src="..\images\p6.gif" style="width:100%" onclick="currentSlide(5)">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>-->
+
+</body>
+</html>

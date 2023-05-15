@@ -1,0 +1,170 @@
+﻿body {
+    direction: rtl;
+    margin: 10px;
+    font-display: optional;
+    background: -webkit-linear-gradient(right,red,yellow,pink,lightblue,green);
+    padding: 10px;
+}
+#h11{
+    font-size: 60px;
+    font-style: oblique;
+    color: #ff006e;
+    position:relative;
+    z-index: 2;
+    
+}
+#h12 {
+    
+    font-size: 60px;
+    font-style: oblique;
+    color: #00ffff;
+    position: relative;
+    z-index: 1;
+    top: -100px;
+    left: 5px;
+}
+h2 {
+    font-size: 30px;
+    font-style: oblique;
+    color: #808080;
+    
+}
+
+#text{
+   display:flex;
+}
+ul {
+
+    font-style: oblique;
+    color: #808080;
+}
+
+div{
+    height:200px;
+    margin:50px 50px 120px 50px;
+}
+
+#instruction{
+    display:flex;
+  
+   justify-content:center;
+   flex-direction:column;
+    right:5%;
+    align-items:center;
+}
+
+#muzic {
+   margin-top:70px;
+  
+    }
+#video {
+    display: flex;
+    clear: both;
+}
+a{ 
+    margin-right:78%;
+    padding:50px;
+    font-family:Guttman-Aharoni;
+    color:#000000;
+    border:5px solid #ffffff;
+    border-radius:12px;
+    text-decoration:none;
+}
+/*#father{
+    
+}
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}*/
+
+/* Position the image container (needed to position the left and right arrows) */
+/*.container {
+    position: relative;
+    width: 50%;
+    height: 50%;
+   right:20%;
+    top: 15px;
+}*/
+
+/* Hide the images by default */
+/*.mySlides {
+    display: none;
+    position: relative;
+}*/
+
+/* Add a pointer when hovering over the thumbnail images */
+/*.cursor {
+    cursor: pointer;
+}*/
+
+/* Next & previous buttons */
+/*.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}*/
+
+/* Position the "next button" to the right */
+/*.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}*/
+
+    /* On hover, add a black background color with a little bit see-through */
+    /*.prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }*/
+
+/* Number text (1/3 etc) */
+/*.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}*/
+
+/* Container for image text */
+/*.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
+
+/* Six columns side by side */
+/*.column {
+    float: left;
+    width: 16.66%;
+}*/
+
+/* Add a transparency effect for thumnbail images */
+/*.demo {
+    opacity: 0.6;
+}
+
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }*/

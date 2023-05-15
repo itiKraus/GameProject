@@ -1,0 +1,39 @@
+﻿body {
+    direction: rtl;
+    margin: 10px;
+    font-display: optional;
+    background-color: #f7a8a8;
+}
+#divbtn{
+    border:#010c0e;
+    padding:4px;
+    color:#000000;
+    margin-right:25%;
+    margin-top:15px;
+}
+#text {
+    font-size: 20px;
+    font-style: oblique;
+    color: #808080;
+}
+#all{
+    border:6px double #010c0e;
+    margin-right:20px;
+    margin-left:20px;
+    padding:6px;
+}
+#img{
+    margin-top:3%;
+    margin-right:40%;
+
+}
+    #img:hover {
+        -webkit-transform: rotate(50deg);
+    }
+a {
+    text-decoration: none;
+    border: 5px groove #000000;
+    padding: 3px;
+    color: #000000;
+    
+}
